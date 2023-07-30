@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container" id="topMenu">
+        <ul>
+          <li><h1>Kostiantyn Mishchenko</h1></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, my name is Constantine. I´m looking forward to start my new career in IT industry. In the beginnig of this journey I´m learning HTML, CSS and JavaScript, and will keep learning these and other tools for successful accomplishment targeted goals. </p>
+    </div>
+    <div class="container" id="photo"><img src="/picNY - Copy.JPG" alt="my photo" id="myPic"></div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <a href="https://probro.mx/" target="_blank"><h3>ProBro.mx</h3></a>
+        <p>Launching a new service in Mexican Real Estate market.</p>
+        <p> The service is a B2B type model that is aimed at providing information to real estate brokers about the properties in the area with possibility to book/schedule a viewing or reserve the unit from any developer at the moment online.</p>
+        <p> As a Project Representative I conducted cold calling, online and in-person meetings with stakeholders, and negotiated the deals. At the same time filled up the platform content using WordPress content management system and translated website from Russian to Spanish language. To keep track of all steps, goals and achivements I used Bitrix24 CRM system.</p>
+      </div>
+      <div class="project">
+        <h3>Property in Paradise</h3>
+        <p>Web page for Real Estate Agency located in Riviera Maya, Mexico. </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqknjqz" method="post">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last name" required="">
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Write your message here" required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <button type="submit" value="submit">Submit</button>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
